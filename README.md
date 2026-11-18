@@ -6,7 +6,7 @@
 
 The strongest chess engine in 4 KB of Python. PeSTO tapered eval + PVS + transposition table + killers + quiescence, 0x88 board, fixed node budget, deterministic. Plus a precomputed book of fastest forced wins (distilled offline against the house gauntlet engines).
 
-Practice trial-0: Elo 2112 (cap), 6 wins / 0 draws / 0 losses, 643 spare plies. Practice trial-1: Elo 1654 (4W/2D/0L). Practice trial-2: Elo 1279 (3W/0D/3L).
+v8 (NL 150k nodes, rewritten engine, same 67-entry book): Practice trial-0: Elo 2112 (cap), 6 wins / 0 draws / 0 losses, 631 spare plies. Practice trial-1: Elo 1654 (5W/0D/1L), 484 spare. Practice trial-2: Elo 1451 (4W/0D/2L), 466 spare. Fresh-opening mean ~1553 (v7: ~1467).
 
 ## Run it
 
