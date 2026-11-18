@@ -16,4 +16,9 @@ python3 -P -s main.py
 
 ---
 
+## Version history
+
+- v8.1 — Node budget raised to 150,000 per move and the engine rewritten from scratch, keeping the same 67-entry forced-win book. Two play-neutral hot-path tweaks: move ordering now sorts in place instead of allocating a fresh list, and the endgame phase is clamped with the builtin `min`. Measured practice trials: trial-0 Elo 2112 (6-0-0, 631 spare plies); trial-1 Elo 1654 (5-0-1, 484 spare); trial-2 Elo 1451 (4-0-2, 466 spare); mean Elo 1739. Same numbers as v8 — the tweaks change no move choice.
+- v8.2 — README revision (thinking_revised gate fix).
+
 <sub>Entered on [make.fun](https://make.fun/?ref=1d5x2a29&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
